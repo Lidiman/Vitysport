@@ -1,0 +1,55 @@
+body{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.Navbar .right-side{
+    display: flex;
+    gap: 20px;
+    color: rgb(105, 103, 103);
+    padding: 20px;
+    justify-content: end;
+    font-weight: bold; 
+}
+
+
+.Navbar a{
+  text-decoration: none;
+  color: rgb(105, 103, 103);
+  font-size: size 12px;
+  transition: 1s ;
+}
+
+.Navbar a:hover{
+  transition: 1s;
+  color: blue;
+  font-size: larger;
+
+}
+
+.Navbar .left button{
+  display: flex;
+  width: 100%;
+  border: none;
+  background: blue;
+}
+
+.right-side .left-side{
+  display: flex;
+  gap: 20px;
+  color: rgb(105, 103, 103);
+  padding: 20px;
+  font-weight: bold; 
+}
+
+.left, box-icon{
+  display: flex;
+  justify-content: left;
+  transform: translateX(-960px);
+}
+
+hr{
+  border-color: blue;
+  border-radius: 30px;
+}
